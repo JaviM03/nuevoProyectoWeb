@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>BFriends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="../CSS/Style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="grid">
+                <h1>
+                    BFriends
+                </h1>
+                <h2>
+                    Feel The music in you.
+                </h2>
+
+        
+    </div>
+    <div class="grid"> 
+        <p>
+            Inserte Logo Aqui
+        </p>
+    </div>
+    </header>
+
+    <main>
+        <section class=" container">
+            <article class="Flex">
+                    <form>
+                            <fieldset>
+                                <legend>Login</legend>
+                                <label>Usuario</label>:<input name="Usuario" placeholder="Username" type="text" maxlength="9"
+                                    required pattern="[A-Za-z]+" />
+                                <br>
+                                <br>
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                                    title="Debe contener un numero, una minuscula, una mayuscula y un min de 8 letras" required>
+                                <br>
+                                <br>
+                                <input type="submit" value="Login"><br>
+        
+                                <a href="Formulario.html">Crear cuenta</a> <br>
+                                <a href="">He olvidado mi contraseña</a>
+                            </fieldset>
+                        </form>
+                </article>
+                <article class="Flex">
+                        <p>Video</p>
+                        <video>
+                            <!--Acá insertaremos el vídeo introductorio cuando lo tengamos, sino en el peor de los casos lo cambiamos por un simple
+                            div donde expliquemos la idea y objetivo de la red con texto plano xdd-->
+        
+                        </video>
+        
+            </article>
+        </section>
+    </main>
+    <footer>
+            <div>
+                <p>copyright: Luis, Diego, Josué, Javier --- proyecto web 2018</p>
+            </div>
+    </footer>
+    
+</body>
+</html>

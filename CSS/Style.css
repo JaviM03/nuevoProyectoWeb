@@ -1,0 +1,44 @@
+*{
+    text-align: center;
+}   
+
+.header{
+        display: grid;
+        border: 1px solid black;
+        padding:0px;
+        margin: 0px;
+        color: rgb(167, 157, 157);
+        background-color: rgb(51, 49, 77);
+        justify-content: space-between;
+        grid-template-columns: 75% 25%;
+        grid-template-rows: 60% 40%;
+        
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.Flex{
+    margin: 0%;
+    padding: 0%;
+    border: 1px solid black;
+    width: 500px;
+    height: 200px; /* para cambiar la altura de todo el main*/
+    
+}
+
+main{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: rgb(141, 150, 145);
+}
+
+footer{
+    border: 1px solid black;
+    color: rgb(167, 157, 157);
+    background-color: black;
+}
